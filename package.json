@@ -1,4 +1,10 @@
+
 {
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No real build steps for now'"
+  },
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
