@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "my_bucket" {
   }
 }
 resource "aws_s3_bucket_public_access_block" "public_access" {
-      bucket = aws_s3_bucket.my_bucket.id
+      bucket = "fgh-bucket-0000"
 
       block_public_acls       = false
       block_public_policy     = false
