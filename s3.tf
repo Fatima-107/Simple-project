@@ -3,7 +3,7 @@ provider "aws" {
   
 }
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "fgh-bucket-00"
+  bucket = "fgh-bucket-0000"
   
   
 
